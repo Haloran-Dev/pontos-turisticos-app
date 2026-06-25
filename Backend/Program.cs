@@ -27,6 +27,19 @@ builder.Services.AddScoped<IPontoTuristicoService, PontoTuristicoService>();
 var app = builder.Build();
 
 //middlewares
+
+app.UseExceptionHandler(appError =>
+{
+    appError.Run(async context =>
+    {
+        context.Response.StatusCode = 500;
+        context.Response.ContentType = "application/json";
+        await context.Response.WriteAsJsonAsync(new
+        {
+            mensagem = "Ocorreu um erro interno no servidor."
+        });
+    });
+});
 app.MapControllers();
 app.UseCors(MyAllowSpecificOrigins);
 app.Run();
