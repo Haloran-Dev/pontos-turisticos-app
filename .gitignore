@@ -1,0 +1,24 @@
+# Build
+bin/
+obj/
+log/
+logs/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Configurações locais
+appsettings.Development.json
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
