@@ -1,6 +1,6 @@
 Aplicação web para cadastro e listagem de pontos turísticos do país, desenvolvida com ASP.NET Core e React.
 
-# Tecnologias
+## Tecnologias
 
 # Backend
 
@@ -21,7 +21,7 @@ Aplicação web para cadastro e listagem de pontos turísticos do país, desenvo
 - Docker e Docker Compose
 - Nginx 
 
-Rodando com Docker (recomendado)
+### Rodando com Docker (recomendado)
 
 # Pré-requisitos
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
@@ -45,7 +45,7 @@ docker compose up --build
 Acesse a aplicação
 O banco de dados e as tabelas são criados automaticamente na primeira execução.
 
-# Rodando localmente
+### Rodando localmente
 
 # Pré-requisitos
 - [.NET 10 SDK](https://dotnet.microsoft.com/download)
