@@ -34,7 +34,7 @@ cd pontos-turisticos-app
 
 Crie o arquivo `.env` na raiz do projeto, com a variavel da senha do banco (A senha deve ter letras maiúsculas, minúsculas, números e símbolos)
 ```
-SA_PASSWORD=SuaSenhaForte@123
+SA_PASSWORD=SuaSenha@123
 ```
 
 Suba os containers**
@@ -42,8 +42,7 @@ Suba os containers**
 docker compose up --build
 ```
 
-Acesse a aplicação
-O banco de dados e as tabelas são criados automaticamente na primeira execução.
+Acesse a aplicação, o banco de dados e as tabelas são criados automaticamente na primeira execução.
 
 # Rodando localmente
 
