@@ -1,14 +1,14 @@
-Aplicação web para cadastro e listagem de pontos turísticos do país, desenvolvida com ASP.NET Core e React.
+# Aplicação web para cadastro e listagem de pontos turísticos do país, desenvolvida com ASP.NET Core e React.
 
 ## Tecnologias
 
-# Backend
+### Backend
 
 - ASP.NET Core
 - Entity Framework Core
 - SQL Server Express
 
-# Frontend
+### Frontend
 
 - React
 - React Router
@@ -16,12 +16,12 @@ Aplicação web para cadastro e listagem de pontos turísticos do país, desenvo
 - Tailwind CSS
 - React Hot Toast
 
-# Infraestrutura
+### Infraestrutura
 
 - Docker e Docker Compose
 - Nginx 
 
-### Rodando com Docker (recomendado)
+## Rodando com Docker (recomendado)
 
 # Pré-requisitos
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
@@ -45,16 +45,16 @@ docker compose up --build
 Acesse a aplicação
 O banco de dados e as tabelas são criados automaticamente na primeira execução.
 
-### Rodando localmente
+## Rodando localmente
 
 # Pré-requisitos
 - [.NET 10 SDK](https://dotnet.microsoft.com/download)
 - [Node.js 20+](https://nodejs.org/)
 - [SQL Server Express](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads)
 
-# API
+### API
 
-1. Configure a connection string em `Backend/appsettings.json`
+Configure a connection string em `Backend/appsettings.json`
 ```json
 {
   "ConnectionStrings": {
@@ -73,7 +73,7 @@ dotnet run
 
 O backend estará disponível em `http://localhost:3000`
 
-# Frontend
+### Frontend
 
 Crie o arquivo `client/.env`
 ```
